@@ -17,7 +17,7 @@ This scraper is designed to efficiently utilize Reddit's free API call limits pe
 
 ---
 
-## Installation
+## 🛠️ Installation
 
 1. Clone the repository:
    ```
@@ -47,7 +47,7 @@ This scraper is designed to efficiently utilize Reddit's free API call limits pe
 
 ---
 
-## Usage
+## 🖥️ Usage
 
 Run the scheduler script to automate the scraping process:
 ```
@@ -57,7 +57,7 @@ This will scrape posts and comments from the configured subreddit and save the d
 
 ---
 
-## API
+## 📡 API
 
 The main functions in the `scraping.py` file are:
 
