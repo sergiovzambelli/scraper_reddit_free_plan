@@ -15,25 +15,13 @@ This scraper is designed to efficiently utilize Reddit's free API call limits pe
 - **Duplicate Handling** – Smart tracking system prevents reprocessing of previously collected posts and comments, ensuring data consistency and avoiding redundancy.
 - **Error Handling & Logging** – Comprehensive logging to track the scraping process and gracefully handle API rate limits or unexpected errors.
 
-
----
-
-## 🧩 Project Structure
-
-The project follows a modular structure for easy maintenance and scalability:
-
-
-'''
-reddit-scraper/ │-- config.ini # Configuration file for subreddit and scraping settings │-- scraping.py # Main script for data collection │-- scheduler.py # Automates periodic scraping │-- requirements.txt # List of dependencies │-- processed_ids.json # Tracks processed posts/comments to prevent duplication │-- reddit_data.csv # Output file containing scraped data │-- .env # Environment variables file (optional) └── venv/ # Virtual environment directory
-'''
-
 ---
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/sergiovzambelli/reddit-scraper.git
+   git clone https://github.com/sergiovzambelli/scraper_reddit_free_plan.git
    ```
 2. Navigate to the project directory:
    ```
